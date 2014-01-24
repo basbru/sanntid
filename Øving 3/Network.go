@@ -36,6 +36,7 @@ func main() {
 			s = string(read)
 			fmt.Println(s)
 			//needs fixing
+			//msg,crap = bufio.ReadString('\n')
 			msg, crap1, crap2 := bufio.ReadLine()
 			time.Sleep(1000*time.Millisecond)
 
